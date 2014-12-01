@@ -1,0 +1,59 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.github.x3333</groupId>
+	<artifactId>mashbox</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>mashbox</name>
+	<url>http://github.com/0x3333/mashbox</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.7</maven.compiler.source>
+		<maven.compiler.target>1.7</maven.compiler.target>
+		<javawriter.version>2.5.0</javawriter.version>
+	</properties>
+
+	<developers>
+
+		<developer>
+			<id>terciofilho</id>
+			<name>Tercio Gaudencio Filho</name>
+			<email>terciofilho@gmail.com</email>
+			<roles>
+				<role>developer</role>
+			</roles>
+			<timezone>UTC-3</timezone>
+		</developer>
+
+	</developers>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>com.squareup</groupId>
+			<artifactId>javawriter</artifactId>
+			<version>[${javawriter.version},)</version>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+			</resource>
+		</resources>
+
+	</build>
+</project>
