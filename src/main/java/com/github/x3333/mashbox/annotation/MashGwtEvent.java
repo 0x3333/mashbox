@@ -14,6 +14,4 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.SOURCE)
 public @interface MashGwtEvent {
 
-  String eventName() default "";
-
 }
