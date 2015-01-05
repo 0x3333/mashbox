@@ -100,8 +100,7 @@ public class MashGwtEventGenerator extends AbstractGenerator {
 
     // Handler
     writer.beginType("Handler", "interface", EnumSet.of(PUBLIC), "EventHandler");
-    writer.beginMethod("HandlerRegistration", "on" + rawName, EnumSet.of(PUBLIC), simpleName,
-        "event");
+    writer.beginMethod("void", "on" + rawName, EnumSet.of(PUBLIC), simpleName, "event");
     writer.endMethod();
     writer.endType();
     writer.emitEmptyLine();
