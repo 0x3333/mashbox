@@ -132,7 +132,7 @@ public class MashGwtEventGenerator extends AbstractGenerator {
 
     // Fire Event
     constructorParameters.add(0, "hasHandler");
-    constructorParameters.add(0, "final HasHandlers");
+    constructorParameters.add(0, "final HasHandler");
     final StringBuilder strFields = new StringBuilder();
     for (final VariableElement variable : params.values()) {
       strFields.append(", ");
