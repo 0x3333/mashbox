@@ -22,7 +22,7 @@ import com.github.x3333.mashbox.generator.impl.MashGwtEventGenerator;
  * @author Tercio Gaudencio Filho (terciofilho [at] gmail.com)
  */
 @SupportedAnnotationTypes({"com.github.x3333.mashbox.annotation.MashGwtEvent"})
-@SupportedSourceVersion(SourceVersion.RELEASE_6)
+@SupportedSourceVersion(SourceVersion.RELEASE_8)
 public class Processor extends AbstractProcessor {
 
   @Override
