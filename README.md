@@ -1,6 +1,10 @@
 mashbox
 =======
 
+> ***Note:*** This project has been discontinued.
+
+> Source code here is just for reference. It is kind of working, but it's not aware of generic types.
+
 Mashbox is (another) Java Annotation Processor for GWT boilerplate code. Our focus is in lightweight solution.
 
 Currently the project is in early alpha stage.
